@@ -1,0 +1,10 @@
+{% extends "base_index.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}FARMASOFT{% endblock %}
+
+{% block page_content %}
+<div class="page-header" style="align:center;width:200px;height:50px">
+    {{ wtf.quick_form(formulario) }}
+</div>
+{% endblock %}
